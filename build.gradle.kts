@@ -22,7 +22,7 @@ dependencies {
 
     //kafka dependency 추가
     implementation("org.springframework.kafka:spring-kafka")
-
+    implementation("io.projectreactor.kafka:reactor-kafka")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 //    implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
